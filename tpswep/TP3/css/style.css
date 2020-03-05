@@ -1,0 +1,58 @@
+    header,
+section,
+div {
+    border-bottom: 6px solid cyan;
+    background-color: lightgrey;
+    padding: 1%;
+    margin: 1.5%;
+}
+
+table,
+td,
+th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 0.5%;
+    margin: 1.5%;
+    font-family: 'Akronim', cursive;
+    font-size: 25px
+}
+
+th,
+tr:hover {
+    background-color: #f5f5f5;
+    td {
+        padding: 10px;
+    }
+    #a {
+        margin: 1.5%;
+        color: aqua
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(61, 170, 189);
+    }
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        color: blue;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: rgb(60, 109, 94);
+    }
+    li a:hover:not(.active) {
+        background-color: yellow;
+    }
+    .active {
+        background-color: rgb(72, 139, 151);
+    }
